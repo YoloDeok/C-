@@ -21,7 +21,7 @@ int main(void){
     int target;
     
     target = 5;
-    pos = Linear_Search(arr, sizeof(arr), target);
+    pos = Linear_Search(arr, sizeof(arr)/sizeof(int), target);
     printf("%d은 행렬의 %d에 위치해 있다.\n",target,pos);
 
     target = 1;
